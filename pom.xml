@@ -30,13 +30,16 @@
     <url>http://robertburrelldonkin.name</url>
   </organization>
   <licenses>
-    <license>
-      <name>Apache License, Version 2.0</name>
-      <url>http://opensource.org/licenses/Apache-2.0</url>
-      <distribution>repo</distribution>
-    </license>
+      <license>
+         <name>Apache License, Version 2.0</name>
+         <url>http://opensource.org/licenses/Apache-2.0</url>
+         <distribution>repo</distribution>
+      </license>
   </licenses>
-   <dependencies>
+  <prerequisites>
+      <maven>3.0.3</maven>
+  </prerequisites>
+  <dependencies>
       <dependency>
          <groupId>junit</groupId>
          <artifactId>junit</artifactId>
